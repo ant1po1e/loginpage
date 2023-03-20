@@ -258,3 +258,25 @@ header {
 .login-register p a:hover {
     text-decoration: underline;
 }
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border-top: 2px solid white;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    text-shadow: 0 0 30px black;
+    padding: 10px 100px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
